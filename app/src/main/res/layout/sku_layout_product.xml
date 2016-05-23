@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout_slp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingTop="194dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:background="@android:color/transparent">
+
+            <View
+                android:id="@+id/view_slp"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view_slp"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:id="@+id/iv_cancle_slp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp"
+                    android:src="@mipmap/clear" />
+
+                <TextView
+                    android:id="@+id/tv_name_slp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="99dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@+id/iv_cancle_slp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本移动联通电信版本"
+                    android:textColor="#323232"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_price_slp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_name_slp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="12dp"
+                    android:text="6388.00"
+                    android:textColor="#e84515"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_icon_slp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentTop="true"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="12dp"
+                android:background="@android:color/white"
+                android:src="@mipmap/ic_launcher" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d6d7dc" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:id="@+id/layout_parameter_slp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#d6d7dc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/selector_btn_red_gray"
+                android:gravity="center"
+                android:text="确认"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

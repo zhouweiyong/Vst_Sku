@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vst_Sku</string>
+    <string name="action_settings">Settings</string>
+
+
+    <item name="sku_title" type="id"></item>
+    <item name="sku_param" type="id"></item>
+</resources>
